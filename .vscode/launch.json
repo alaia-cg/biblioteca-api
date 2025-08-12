@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Libro",
+            "request": "launch",
+            "mainClass": "com.biblioteca.model.Libro",
+            "projectName": "biblioteca-api"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BibliotecaApiApplication<biblioteca-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.biblioteca.BibliotecaApiApplication",
+            "projectName": "biblioteca-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=64575 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=biblioteca-api"
+        }
+    ]
+}
